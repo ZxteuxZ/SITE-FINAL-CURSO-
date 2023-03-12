@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  @font-face {
+    font-family: valorant_font;
+    src: url(Valorant\ Font.ttf);
+  }
+
+  #logo {
+
+    padding: 0%;
+    width: 390px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    margin-top: auto;
+}
+  
+  /* estilo do cabeçalho */
+  .header {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url(map_fundo.jpg);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 4px 4px 4px #a0a0a0;
+  }
+  
+  #topo {
+    background-color: transparent;
+    padding: 0px 10px 10px 10px;
+    width:600px;
+    height: 40px;
+    display:inline-block;
+    float:right;
+  }
+  
+  /* Crie três colunas desiguais que flutuam uma ao lado da outra */
+  .column {
+    float: left;
+    padding: 20px;
+    height: 300px; /* Deve ser removido. Apenas para demonstração */
+  }
+
+/* Coluna geral */
+  .column.geral {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  /* Colunas laterais */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Coluna do meio */
+  .column.middle {
+    width: 50%;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  /* Limpar flutuações após as colunas */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* estilo do rodapé */
+  .footer {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+    background-image: url(map_fundo.jpg);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Layout Responsivo */
+  @media (max-width: 600px) {
+    .column.side, .column.middle, .column.geral {
+      width: 100%;
+    }
+  
+  }
+
+  .agt-s {
+    padding-left: 14px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-right: 14px;
+    text-align: left;
+    color: white;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    height: 520px;
+  }
+
+  .agt-h {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .agt {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+
+  .p-agents {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul  li {
+    display: inline-block;
+    float: right;
+    padding: 0px 57px 0px 50px;
+    width: 244px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: white;
+    font-family: valorant_font;
+  }

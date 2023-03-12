@@ -1,0 +1,165 @@
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+  }
+  
+  body {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Creepster', cursive;
+  }
+
+/* FONTS EXTERNAS */
+
+  @font-face {
+    font-family: valorant_font;
+    src: url(Valorant\ Font.ttf);
+  }
+
+  @font-face {
+    font-family: coolvetica;
+    src: url(coolvetica\ rg.otf);
+  }
+
+/* FIM DAS FONTS EXTERNAS */
+
+  h3 {
+    font-family: valorant_font;
+    padding-top: 140px;
+    padding-left: 170px; 
+    background-color: transparent;
+  }
+
+  ul  li {
+    display: inline-block;
+    float: right;
+    padding: 0px 57px 0px 50px;
+    width: 244px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    color: white;
+    font-family: valorant_font;
+  }
+
+  .not:hover {
+    box-shadow: 8px 8px 0px 0px #ff4040;
+    transition: all 0.3s;
+  }
+  
+  /* estilo do cabeçalho */
+
+  .btn_download {
+    float: left;
+    height: 400px;
+    width: 550px;
+    padding-left: 320px;
+    padding-top: 100px;
+  }
+
+  .download {
+    width: 700px;
+    height: 500px;
+    float: left;
+}
+
+
+  .not {
+    border-radius: 7px;
+    border: 1px solid transparent;
+
+}
+
+  .header {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url(map_fundo.jpg);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 4px 4px 4px #a0a0a0;
+  }
+  
+  #topo {
+    background-color: #fff;
+    padding: 10px;
+    width:600px;
+    height: 50px;
+    display:inline-block;
+    float:right;
+    margin-top:auto;
+  }
+  
+  /* Crie três colunas desiguais que flutuam uma ao lado da outra */
+
+  .column {
+    float: left;
+    padding: 20px;
+    height: 500px; 
+  }
+  
+  /* Colunas gerais */
+
+  .column_text {
+    display: block;
+    padding-top: 370px;
+    padding-right: 70px;
+    text-align: left;
+    width: 47%;
+    font-size: 44px;
+    float: right;
+    font-family: coolvetica;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .column.geral {
+    height: 950px;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+  }
+  /* Colunas laterais */
+
+  .column.side {
+    height: 50;
+    width: 50%;
+    float: left;
+    padding: 0px 0px 0px 40px;
+  }
+  
+  /* Coluna do meio */
+
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Limpar flutuações após as colunas */
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* estilo do rodapé */
+
+  .footer {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+    background-image: url(map_fundo.jpg);
+    padding: 10px;
+    text-align: center;
+    height: 39px;
+  }
+  
+  
