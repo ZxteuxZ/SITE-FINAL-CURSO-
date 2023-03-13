@@ -3,11 +3,7 @@
     box-sizing: border-box;
     margin:0px;
   }
-  
-  body {
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Creepster', cursive;
-  }
+
 
 /* FONTS EXTERNAS */
 
@@ -23,7 +19,12 @@
 
 /* FIM DAS FONTS EXTERNAS */
 
-  h3 {
+  .h2 {
+    width: 1865px;
+    height: 48px;
+}
+
+  h2 {
     font-family: valorant_font;
     padding-top: 140px;
     padding-left: 170px; 
@@ -33,34 +34,56 @@
   ul  li {
     display: inline-block;
     float: right;
-    padding: 0px 57px 0px 50px;
+    padding: 4px 100px 0px 50px;
     width: 244px;
   }
 
   a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
   }
   
   a:hover {
     color: white;
-    font-family: valorant_font;
+    text-shadow: 4px 4px 4px black;
   }
 
-  .not:hover {
-    box-shadow: 8px 8px 0px 0px #ff4040;
-    transition: all 0.3s;
+  .a_download:hover {
+    width: 300px;
+    height: 90px;
+    background-color: #ff4040;
+    display: block;
+    text-align: center;
+    font-size: 27px;
+    font-family:'coolvetica';
+    padding-top: 30px;
+    color: black;
+    text-shadow: 1px 1px 1px transparent;
+    letter-spacing: 2px;
   }
   
   /* estilo do cabeçalho */
 
+  .a_download {
+    width: 300px;
+    height: 90px;
+    background-color: #ff4040;
+    display: block;
+    text-align: center;
+    font-size: 27px;
+    font-family:'coolvetica';
+    padding-top: 30px;
+    color: black;
+    letter-spacing: 1px;
+  }
+
   .btn_download {
     float: left;
     height: 400px;
-    width: 550px;
-    padding-left: 320px;
-    padding-top: 100px;
+    width: 50px;
+    padding-left: 122px;
+    padding-top: 140px;
   }
 
   .download {
@@ -84,18 +107,14 @@
     text-align: center;
     font-size: 30px;
     font-family: 'Righteous', cursive;
-    text-shadow: 4px 4px 4px #a0a0a0;
+    
+  }
+
+  .not:hover {
+    box-shadow: 8px 8px 0px 0px #ff4040;
+    transition: all 0.3s;
   }
   
-  #topo {
-    background-color: #fff;
-    padding: 10px;
-    width:600px;
-    height: 50px;
-    display:inline-block;
-    float:right;
-    margin-top:auto;
-  }
   
   /* Crie três colunas desiguais que flutuam uma ao lado da outra */
 

@@ -3,181 +3,68 @@
   margin:0px;
 }
 
+/* FONTS EXTERNAS */
+
+@font-face {
+  font-family: valorant_font;
+  src: url(Valorant\ Font.ttf);
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(coolvetica\ rg.otf);
+}
+
+/* FIM DAS FONTS EXTERNAS */
+
 body {
-	font-family: 'Oswald', sans-serif;
+  background-image: url(map_fundo.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
-ul li {
-	display:inline-block;
-	float:right;
-	margin: 15px;
+
+h2 {
+  font-family: valorant_font;
+  background-color: transparent;
+  color: white;
 }
+
+
+ul  li {
+  display: inline-block;
+  float: right;
+  padding: 4px 100px 0px 50px;
+  width: 244px;
+  letter-spacing: 1px;
+}
+
 a {
-	text-decoration:none;
-	color: #000;
-	font-size:20px;	
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 a:hover {
-	color: #f00;	
+  color: white;
+  text-shadow: 4px 4px 4px black;
 }
 
+  /* estilo do cabeçalho */
+  .header {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'coolvetica'
+  }
 
-/* estilo do cabeçalho */
-.header {
-  background-color: #000;
-  padding: 20px;
-  width:100%;
-  text-align: center;
-  font-family: 'OptimusPrinceps', sans-serif;
-  font-size: 48px;
-  /text-shadow: 4px 4px 4px #aaa;/
-}
-
-#logo {
-  /background-color: #fff;/
-  padding:0px;
-  width:250px;
-  height: 80px;
-  display:inline-block;
-  float:left;
-  margin-top:auto;
-}
-#topo {
-  /background-color: #fff;/
-  padding: 10px;
-  width:600px;
-  height: 50px;
-  display:inline-block;
-  float:right;
-  margin-top:22px;
-  margin-right:110px;
-  margin-bottom:50px;
-  
-}
-
-/* Crie três colunas desiguais que flutuam uma ao lado da outra */
-.column {
-  float: left;
-  padding: 20px;
-  height: 500px; 
-}
-
-/* Colunas gerais */
-.column.geral {
-  width: 100%;
-}
-/* Colunas laterais */
-.column.side {
-  width: 25%;
-}
-
-/* Coluna do meio */
-.column.middle {
-  width: 50%;
-}
-
-/* Limpar flutuações após as colunas */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* estilo do rodapé */
+  /* estilo do rodapé */
 .footer {
-  background-color: #000;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+  background-image: url(map_fundo.jpg);
   padding: 10px;
-  height: 50px;
-}
-
-.foto {
-  padding:0px;
-  margin:0px;
-  width:100%; height:100%;
-  display:inline-block;
-}
-
-.foto1 {
-  background-color: #eee;
-  padding: 0px;
-  margin-left:10px; margin-top: 10px;
-  width:200px; height:450px;
-  display:inline-block;
-  float:left;
-}
-.foto1.texto {
-  background-color: #fff;
-  padding: 10px;
-  margin-left:10px; margin-top: 10px;
-  width:200px; height:450px;
-  display:inline-block;
-  float:left;
-}
-.foto2 {
-  background-color: #eee;
-  padding: 0px;
-  margin-left:10px; margin-top: 5px;
-  width:400px; height:400px;
-  float:left;
-}
-.foto2.texto {
-  background-color: #fff;
-  padding: 10px;
-  margin-left:10px; margin-top: 5px;
-  width:400px; height:50px;
-  float:left;
-}
-
-/* estilo Gallery */
-
-.galeria_interna {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 1030px;
-}
-
-div.galery {
-  margin: 5px;
-
-  width: 100%;
-  height:auto;
-}
-
-
-div.galery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
   text-align: center;
 }
 
-/* Layout Responsivo */
-@media (max-width: 600px) {
-  header, .column.side, .column.middle, .column.geral .galeria_interna, div.galery,
-  #topo{
-    width: 100%;
-  }
-  h2{
-    margin-top: 175px;
-    font-size: 25px;
-  }
-  #logo{
-    margin-top: 25px;
-    width: 100px;
-  }
-  ul li{
-    margin: 10px;
-    font-size: 14px;
-  }
-  .foto1, .foto1.texto {
-	  width:260px;
-  }
-  .foto2, .foto2.texto {
-	  width:520px;
-  }
 
-}
