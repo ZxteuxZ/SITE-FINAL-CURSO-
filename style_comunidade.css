@@ -138,14 +138,50 @@ a:hover {
       height: 400px;
       width: 75%;
       background-color: #c9c9c9;
+      margin-left: 230px;
+      margin-right: 200px;
     }
 
     .galeria_envio_pai {
-      height: 700px;
+      height: 500px;
       width: 100%;
       background-color: transparent;
-      padding-left: 430px;
       padding-top: 100px;
+      display: inline-block;
+      align-items: center;
+      letter-spacing: 2px;
+    }
+
+    .btn_galeria {
+      color: white;
+      background-color: black;
+      width: 350px;
+      height: 100px;
+      text-align: center;
+      padding-top: 38px;
+      margin-left: 250px;
+      margin-top: 200px;
+      margin-right: 0px;
+      font-family: 'Righteous', cursive;
+      float: left;
+      font-size: 20px;
+    }
+
+    .ft_envio01 {
+      height: 30%;
+      width: 250px;
+      margin-top: 50px;
+      margin-left: 50px;
+      float: left;
+    }
+
+    .ft_envio02 {
+      height: 30%;
+      width: 250px;
+      margin-top: 50px;
+      margin-left: 20px;
+      float: right;
+      display: inline-block;
     }
 
   /* estilo do rodapé */
