@@ -137,7 +137,7 @@ a:hover {
     .galeria_envio {
       height: 400px;
       width: 75%;
-      background-color: #c9c9c9;
+      background-color: transparent;
       margin-left: 230px;
       margin-right: 200px;
     }
@@ -159,8 +159,8 @@ a:hover {
       height: 100px;
       text-align: center;
       padding-top: 38px;
-      margin-left: 250px;
-      margin-top: 200px;
+      margin-left: 268px;
+      margin-top: 140px;
       margin-right: 0px;
       font-family: 'Righteous', cursive;
       float: left;
